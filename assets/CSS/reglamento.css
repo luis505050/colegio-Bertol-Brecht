@@ -72,6 +72,12 @@ body {
     .note-credits {
         font-size: 0.7rem;
     }
+    .iframe-container {
+        width: auto; /* Se ajusta al ancho del contenedor */
+        padding-top:  75%; /* Relación de aspecto 16:9 */
+        height: auto; /* Altura automática */
+        position: relative;
+    }
 }
 
 @media (max-width: 480px) {
